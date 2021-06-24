@@ -9,7 +9,7 @@
 
 #define ROMSIZE 1048576
 
-int main(char *argv, int argc) {
+int main(int argv, char **argc) {
     FILE *file;
     SNDFILE *out;
     SF_INFO info;
